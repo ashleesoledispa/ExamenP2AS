@@ -50,10 +50,10 @@
     </Style>
     <Style TargetType="Button" x:Key="Boton1">
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="BackgroundColor" Value="Brown"/>
+        <Setter Property="BackgroundColor" Value="GreenYellow"/>
     </Style>
     <Style TargetType="Button" x:Key="Boton2">
-        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontSize" Value="20"/>
         <Setter Property="BackgroundColor" Value="Blue"/>
     </Style>
 
