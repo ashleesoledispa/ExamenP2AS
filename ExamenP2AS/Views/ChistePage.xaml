@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenP2AS.Views.ChistePage"
              Title="ChistePage">
-    <VerticalStackLayout>
+    <AbsoluteLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            x:Name="JokeLabel"
+            Text="AbsoluteLayout"
+            FontSize="32"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            AbsoluteLayout.LayoutBounds="0.5, 0.1, -1, -1"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button 
+            x:Name="OtroChiste"
+            Text="Otro Chiste"
+            Clicked="OnOtroChisteClicked"
+            WidthRequest="150"
+            HeightRequest="50"
+            AbsoluteLayout.LayoutBounds="1,1,150,50"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+    </AbsoluteLayout>
 </ContentPage>
