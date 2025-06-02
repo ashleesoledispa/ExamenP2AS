@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenP2AS", "ExamenP2AS\ExamenP2AS.csproj", "{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8900DB81-1A55-4F26-B152-6FDAAEA84EA5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CAC8443-26F0-497D-8C9E-FA59C24C83AD}
+	EndGlobalSection
+EndGlobal
