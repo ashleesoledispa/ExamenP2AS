@@ -20,7 +20,7 @@
         <Button
          x:Name="AboutBtn"
          Text="About"
-         Style= "{StaticResource Boton1}"
+         Style= "{StaticResource Boton2}"
          Clicked="AboutBtn_Clicked"/>
     </StackLayout>
 
