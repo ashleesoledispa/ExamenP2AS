@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenP2AS.MainPage">
+
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Bienvenido a la aplicación de Ashlee Soledispa" 
+               FontSize="32"
+               HorizontalOptions="Center" />
+
+        <Image Source="foto.png" 
+               HeightRequest="200"
+               WidthRequest="200"
+               HorizontalOptions="Center"/>
+        <Button
+         x:Name="ChisteBtn"
+         Text="Ver chiste"
+         Style= "{StaticResource Boton1}"
+         Clicked="ChisteBtn_Clicked"/>
+        <Button
+         x:Name="AboutBtn"
+         Text="About"
+         Style= "{StaticResource Boton1}"
+         Clicked="AboutBtn_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
